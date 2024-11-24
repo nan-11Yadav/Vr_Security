@@ -51,8 +51,7 @@ This project is a modern **Admin Dashboard** built with **React** to help admini
     git clone https://github.com/Shriyansh7870/VR-Security-Dashbord.git
    cd admin-dashboard
 
-2. **Install dependencies:**
+2. **Install dependencies/ Project Start:**
  ```bash
-   npm install
-
-3.
+npm install
+npm start
