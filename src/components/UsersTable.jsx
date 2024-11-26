@@ -11,7 +11,7 @@ const UsersTable = () => {
       <div className="flex justify-between mb-4">
         <h2 className="text-xl font-bold">Users</h2>
         <button
-          className="bg-blue-500 text-white px-4 py-2 rounded"
+          className="bg-green-500 text-white px-4 py-2 rounded"
           onClick={() =>
             setPopupData({ isOpen: true, type: "addUser", data: null })
           }

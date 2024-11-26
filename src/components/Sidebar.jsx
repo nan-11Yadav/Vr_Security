@@ -5,14 +5,14 @@ const Sidebar = () => {
   const { activeTab, setActiveTab } = useAppContext();
 
   return (
-    <div className="w-64 bg-gray-800 text-white h-screen p-4">
+    <div className="w-64 bg-green-600 text-white h-screen p-4">
       <div className="text-2xl font-bold mb-6">RBAC Dashboard</div>
       <nav>
         <ul>
           <li
             onClick={() => setActiveTab("Users")}
             className={`py-2 px-4 rounded cursor-pointer ${
-              activeTab === "Users" ? "bg-gray-700" : "hover:bg-gray-700"
+              activeTab === "Users" ? "bg-gray-200" : "hover:bg-gray-700"
             }`}
           >
             Users
@@ -20,7 +20,7 @@ const Sidebar = () => {
           <li
             onClick={() => setActiveTab("Roles")}
             className={`py-2 px-4 rounded cursor-pointer ${
-              activeTab === "Roles" ? "bg-gray-700" : "hover:bg-gray-700"
+              activeTab === "Roles" ? "bg-gray-200" : "hover:bg-gray-700"
             }`}
           >
             Roles
